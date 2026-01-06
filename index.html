@@ -3,152 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <title>Gargi Gogulwar | Portfolio</title>
+    <meta name="description" content="Portfolio of Gargi Gogulwar – AI/ML Engineer, Data Analyst, Python Developer">
+    <meta name="keywords" content="AI, Machine Learning, Data Analytics, Python Developer, Software Engineer">
+    <meta name="author" content="Gargi Gogulwar">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Background -->
 <div class="background"></div>
 <div class="stars"></div>
 
+<!-- NAVBAR -->
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+</nav>
 
+<main class="container">
 
-
-<div class="container">
-
-    <!-- HERO -->
-<header class="hero">
+<!-- HERO -->
+<header class="hero" id="home">
     <div class="hero-text">
         <h1>Hi, I'm <span>Gargi Gogulwar</span></h1>
-        <h3>AI/ML • Data Analytics • Python Developer</h3>
-        <p>Always learning, building, and improving.</p>
+        <h2>AI/ML Engineer | Data Analyst | Python Developer</h2>
+        <p>Building intelligent systems and data-driven solutions.</p>
     </div>
 
     <img src="assets/profile.jpeg" alt="Gargi Gogulwar" class="profile-pic">
 </header>
- 
-    <!-- ABOUT -->
-    <section>
-        <h2>About Me</h2>
-        <p>
-            B.Tech CSE (2023–2027) at PCCOE, Pune.<br>
-            Ex Intern — Google Cloud AI/ML Program (Eduskills + AICTE).<br><br>
-            Interested in Machine Learning, Data Analytics, Cybersecurity,
-            and System Design. I enjoy building real-world projects and
-            continuously improving my skills.<br>
-            Curresnt Google student ambassador for PCCOE.<br>
-            
-            
-        </p>
-    </section>
 
-    <!-- SKILLS -->
-    <section>
-        <h2>Skills</h2>
-        <div class="tags">
-            <span>Python</span>
-            <span>C++</span>
-            <span>JavaScript</span>
-            <span>Machine Learning</span>
-            <span>Data Analytics</span>
-            <span>DSA</span>
-            <span>Linux</span>
-            <span>Git & GitHub</span>
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section>
-        <h2>Projects</h2>
-
-        <div class="projects">
-            <div class="card">
-                <h3>TowerJumperGAME</h3>
-                <p>C++ game with physics logic and optimized gameplay loop.</p>
-                <a href="https://github.com/GargiGogulwar/TowerJumperGAME" target="_blank">View Project →</a>
-            </div>
-
-            <div class="card">
-                <h3>Multi-Agent Job Screening AI</h3>
-                <p>AI system for resume screening, JD matching, and automation.</p>
-                <a href="https://github.com/GargiGogulwar/multi-agent-job-screening-ai" target="_blank">View Project →</a>
-            </div>
-
-            <div class="card">
-                <h3>ChatGPT Clone</h3>
-                <p>Conversational AI interface using JavaScript and APIs.</p>
-                <a href="https://github.com/GargiGogulwar/ChatGPT-CLONE" target="_blank">View Project →</a>
-            </div>
-
-            <div class="card">
-                <h3>File System (Red-Black Tree)</h3>
-                <p>In-memory file system simulation using C++ and RBT.</p>
-                <a href="https://github.com/GargiGogulwar/filesystem-rbtree" target="_blank">View Project →</a>
-            </div>
-
-            <div class="card">
-                <h3>Netflix Recommender Dashboard</h3>
-                <p>Data analytics dashboard with recommendation insights.</p>
-                <a href="https://github.com/GargiGogulwar/netflix-recommender-dashboard" target="_blank">View Project →</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- CERTIFICATES -->
-    <section>
-        <h2>Certificates</h2>
-
-        <div class="certificates">
-            <div class="card">
-                <h3>Learn C++ Programming — Beginner to Advance</h3>
-                <p>Platform: Udemy</p>
-                <p>Status: <strong>Completed (100%)</strong></p>
-                <button onclick="openCert('certificates/cpp.jpg')">View Certificate</button>
-            </div>
-
-            <div class="card">
-                <h3>The Complete Machine Learning Course with Python</h3>
-                <p>Platform: Udemy</p>
-                <p>Status: <strong>Completed (100%)</strong></p>
-                <button onclick="openCert('certificates/ml.jpg')">View Certificate</button>
-            </div>
-
-            <div class="card">
-                <h3>Mastering DSA using C and C++</h3>
-                <p>Platform: Udemy</p>
-                <p>Status: <strong>85% Completed</strong></p>
-                <button onclick="openCert('certificates/dsa.jpg')">View Certificate</button>
-            </div>
-        </div>
-    </section>
-
-<!-- CONTACT -->
-<section class="contact">
-    <h2>Contact</h2>
-
+<!-- ABOUT -->
+<section id="about" aria-label="About Gargi Gogulwar">
+    <h2>About Me</h2>
     <p>
-        📧 Email:
-        <a href="mailto:gargi.gogulwar23@pccoepune.org">
-            gargi.gogulwar23@pccoepune.org
-        </a>
-    </p>
-
-    <p>
-        📞 Phone:
-        <a href="tel:+917887936621">
-            +91 78879 36621
-        </a>
-    </p>
-
-    <p>
-        💻 GitHub:
-        <a href="https://github.com/GargiGogulwar" target="_blank">
-            github.com/GargiGogulwar
-        </a>
+        B.Tech in Computer Science & Engineering (2023–2027) at PCCOE, Pune.<br><br>
+        Former Intern — Google Cloud AI/ML Program (Eduskills + AICTE).<br><br>
+        Passionate about Artificial Intelligence, Machine Learning, Data Analytics,
+        Cybersecurity, and System Design. I enjoy building real-world projects and
+        continuously upgrading my technical skills.<br><br>
+        Current Google Student Ambassador for PCCOE.
     </p>
 </section>
 
+<!-- SKILLS -->
+<section id="skills" aria-label="Technical Skills">
+    <h2>Technical Skills</h2>
 
-</div>
+    <p>
+        <strong>Programming Languages:</strong> Python, C++, JavaScript<br>
+        <strong>Domains:</strong> Machine Learning, Data Analytics, Cybersecurity, System Design<br>
+        <strong>Tools & Platforms:</strong> Git, GitHub, Linux, Streamlit, Google Cloud<br>
+        <strong>Core Concepts:</strong> Data Structures and Algorithms (DSA), OOPs
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" aria-label="Projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Multi-Agent Job Screening AI</h3>
+            <p>
+                Designed an AI-powered recruitment system using a multi-agent architecture
+                to automate resume screening, job-description matching, and candidate
+                shortlisting using NLP and similarity scoring.
+            </p>
+            <p><strong>Tech Stack:</strong> Python, LLMs, LangGraph, Streamlit</p>
+            <a href="https://github.com/GargiGogulwar/multi-agent-job-screening-ai" target="_blank">View Project →</a>
+        </div>
+
+        <div class="card">
+            <h3>TowerJumper Game</h3>
+            <p>
+                Developed a C++ game implementing physics-based jumping mechanics and
+                optimized game loops for performance.
+            </p>
+            <p><strong>Tech Stack:</strong> C++</p>
+            <a href="https://github.com/GargiGogulwar/TowerJumperGAME" target="_blank">View Project →</a>
+        </div>
+
+        <div class="card">
+            <h3>ChatGPT Clone</h3>
+            <p>
+                Built a conversational AI interface with real-time responses using APIs,
+                focusing on UI responsiveness and prompt handling.
+            </p>
+            <p><strong>Tech Stack:</strong> JavaScript, APIs</p>
+            <a href="https://github.com/GargiGogulwar/ChatGPT-CLONE" target="_blank">View Project →</a>
+        </div>
+
+        <div class="card">
+            <h3>File System using Red-Black Tree</h3>
+            <p>
+                Implemented an in-memory file system simulation using Red-Black Tree
+                for efficient directory insertion, deletion, and traversal.
+            </p>
+            <p><strong>Tech Stack:</strong> C++, Data Structures</p>
+            <a href="https://github.com/GargiGogulwar/filesystem-rbtree" target="_blank">View Project →</a>
+        </div>
+
+        <div class="card">
+            <h3>Netflix Recommender Dashboard</h3>
+            <p>
+                Created a data analytics dashboard to visualize user preferences and
+                recommendation insights using real-world datasets.
+            </p>
+            <p><strong>Tech Stack:</strong> Python, Data Analytics</p>
+            <a href="https://github.com/GargiGogulwar/netflix-recommender-dashboard" target="_blank">View Project →</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" aria-label="Certifications">
+    <h2>Certifications</h2>
+
+    <div class="certificates">
+
+        <div class="card">
+            <h3>Learn C++ Programming — Beginner to Advance</h3>
+            <p>Platform: Udemy</p>
+            <button onclick="openCert('certificates/cpp.jpg')">View Certificate</button>
+        </div>
+
+        <div class="card">
+            <h3>Complete Machine Learning Course with Python</h3>
+            <p>Platform: Udemy</p>
+            <button onclick="openCert('certificates/ml.jpg')">View Certificate</button>
+        </div>
+
+        <div class="card">
+            <h3>Mastering DSA using C and C++</h3>
+            <p>Platform: Udemy</p>
+            <button onclick="openCert('certificates/dsa.jpg')">View Certificate</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact" aria-label="Contact Information">
+    <h2>Contact Information</h2>
+
+    <p><strong>Email:</strong> gargi.gogulwar23@pccoepune.org</p>
+    <p><strong>Phone:</strong> +91 78879 36621</p>
+    <p><strong>GitHub:</strong> https://github.com/GargiGogulwar</p>
+</section>
+
+<!-- ATS KEYWORDS (Hidden) -->
+<section style="display:none;">
+    <h2>Keywords</h2>
+    <p>
+        Artificial Intelligence, Machine Learning, Data Analytics, Python Developer,
+        Software Engineer, NLP, Cloud Computing, Git, Linux, APIs
+    </p>
+</section>
+
+</main>
 
 <!-- CERTIFICATE MODAL -->
 <div id="certModal" class="modal" onclick="closeCert()">
