@@ -148,3 +148,7 @@ h2 {
         color: black;
     }
 }
+.internship {
+    border: 2px solid rgba(31, 162, 166, 0.5);
+    box-shadow: 0 0 25px rgba(31, 162, 166, 0.25);
+}
